@@ -3,11 +3,18 @@ This repository contains a Network Packet Analyzer tool implemented in Python. T
 
 # Features
 -->Packet Capture: Uses Python libraries to capture network packets in real-time from a specified network interface.
+
+
 -->Packet Analysis: Parses and decodes packet data to extract useful information such as source and destination IP addresses, port numbers, and protocol types.
+
+
 -->Detailed Reporting: Provides detailed output of the packet information, including headers and payload, to help diagnose network issues and analyze traffic patterns.
+
+
 -->Protocol Support: Supports common network protocols including TCP, UDP, and ICMP, with the ability to expand to other protocols.
 
 #  Usage
+
 Install Dependencies: Ensure you have the necessary Python libraries installed. You can use pip to install them.
 
 pip install scapy
@@ -37,9 +44,10 @@ Payload: [Data Content]
 Installation
 To get started, clone the repository and install the required dependencies:
 
-git clone https://github.com/your-username/network-packet-analyzer.git
+git clone https://github.com/raghavmishra1//network-packet-analyzer.git
 cd network-packet-analyzer
 pip install -r requirements.txt
+
 # License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
